@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+}
+
+.container{
+    background-color: #cab6ac;
+    text-align: center;
+    padding: 2rem;
+    line-height: 1.5;    
+}
+
+header{
+    margin: 2rem;
+}
+
+h1{
+    text-transform: uppercase;
+    color: #5b4f49; 
+    
+}
+
+h2{
+    color: #111;
+}
+
+.card{
+    text-decoration: none;
+    background-color: #5b4f49;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    transition: 1s;
+}
+
+.card:hover{
+    background-image: linear-gradient(to right, #5b4f49, #816f66, #938178, #5b4f49);
+}
+
+.item-title,
+.item{    
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem; 
+    margin: 0 8.9rem;
+    font-weight: bold;
+}
+
+.item-title{
+    text-transform: uppercase;
+    background-color:#5b4f49;
+    border-radius: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.item{
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #5b4f49;
+}
+
+.date-title,
+.description-title,
+.doc-title{
+    background-color: #5b4f49;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.date,
+.description,
+.doc{
+    align-self: center;    
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem;
+    align-items: center;
+}
+
+.date-title{
+    width: 8rem;
+}
+
+.description-title{
+    width: 40rem;
+}
+
+.doc-title{
+    width: 3rem;
+}
+
+.date{
+    width: 8rem;
+}
+
+.description{
+    width: 40rem;
+    text-align: justify;
+}
+
+#title{
+    width: 55rem;
+}
+
+.doc a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 0.3rem;
+    color: #111;
+    transition: 1s;
+}
+
+.doc:hover{
+    background-color: #5b4f49;
+    border-radius: 50%;
+}
+
+.doc a:hover{
+    color: #fff;
+}
+
+footer{
+    background-color: #5b4f49;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.glossario{
+    margin: 4rem 9rem;
+}
+h2{
+    margin-bottom: 4rem;
+}
+h4,
+p{
+    text-align: justify;
+}
+
+h4,
+h2{
+    text-transform: uppercase;
+}
+
+p{
+    margin-bottom: 2rem;
+}
+
+
